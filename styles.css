@@ -13,3 +13,7 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
