@@ -8,12 +8,47 @@ body {
   font-size: 1.2rem;
   line-height: 1.2;
   text-align: center;
-  background: #1f2937;
-  color: #f9faf8;
+  background: hsl(215, 28%, 17%);
+  color: hsl(90, 17%, 98%);
   margin: 0;
 }
 
 h1 {
   font-size: 4rem;
   margin-bottom: 0;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+a {
+  color: hsl(90, 17%, 100%);
+}
+
+a:visited {
+  color: hsl(90, 17%, 80%);
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: hsl(215, 28%, 22%);
+}
+
+@media (max-width: 400px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 90%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
 }
